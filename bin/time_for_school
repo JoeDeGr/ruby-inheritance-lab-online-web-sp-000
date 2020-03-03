@@ -23,8 +23,6 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Root"
 
-jim.learn
-
 puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
 jim = Student.new
 jim.first_name = "Jim"
