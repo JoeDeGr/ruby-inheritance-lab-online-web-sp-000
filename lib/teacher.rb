@@ -5,4 +5,12 @@ class Teacher < User
   def teach
      KNOWLEDGE.sample
   end
+  def avi_teach
+    some_knowledge = avi.teach
+    Students.all.each do |student|
+       student.learn
+       puts "Thank you Avi, #{student.first_name} just learned: #{student.knowledge.sample}"
+     end
+  end
+
 end
