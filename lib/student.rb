@@ -3,6 +3,7 @@ class Student < User
   attr_accessor :knowledge
 @@all = []
   def initialize
+    @@all << self
     @knowledge = []
   end
 
