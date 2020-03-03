@@ -9,7 +9,7 @@ class Teacher < User
     some_knowledge = self.teach
     Students.all.each do |student|
        student.learn
-       puts "Thank you Avi, #{student.first_name} just learned: #{student.knowledge.sample}"
+       puts "Thank you #{@first_name}, #{student.first_name} just learned: #{student.knowledge.sample}"
      end
   end
 end
