@@ -55,4 +55,3 @@ bob.last_name = "Weave"
 joey = Student.new
 joey.first_name = "Joey"
 joey.last_name = "Bag'O'Donoughts"
-
