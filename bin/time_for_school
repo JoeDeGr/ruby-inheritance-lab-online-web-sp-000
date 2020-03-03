@@ -48,6 +48,11 @@ kim = Student.new
 kim.first_name = "Kim"
 kim.last_name = "Root"
 
-im = Student.new
-jim.first_name = "Jim"
-jim.last_name = "Root"
+bob = Student.new
+bob.first_name = "Bob"
+bob.last_name = "Weave"
+
+joey = Student.new
+joey.first_name = "Joey"
+joey.last_name = "Bag'O'Donoughts"
+
