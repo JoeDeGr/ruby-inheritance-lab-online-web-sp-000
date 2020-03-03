@@ -6,7 +6,7 @@ class Student < User
     @@all << self
     @knowledge = []
   end
-  def self.all 
+  def self.all
     @@all
   end
 
