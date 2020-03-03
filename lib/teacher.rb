@@ -12,5 +12,4 @@ class Teacher < User
        puts "Thank you Avi, #{student.first_name} just learned: #{student.knowledge.sample}"
      end
   end
-
 end
