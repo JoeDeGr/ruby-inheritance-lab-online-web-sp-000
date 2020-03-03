@@ -1,11 +1,14 @@
 class Student < User
 
   attr_accessor :knowledge
-@@all = []
+  
+  @@all = []
+
   def initialize
     @@all << self
     @knowledge = []
   end
+  
   def self.all
     @@all
   end
