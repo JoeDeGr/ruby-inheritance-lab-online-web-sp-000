@@ -23,6 +23,5 @@ jim = User.new
 jim.first_name = Jim
 jim.last_name = Root
 
-jim.learn
-
-jim.knowledge
+steve.learn(some_knowledge)
+puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
