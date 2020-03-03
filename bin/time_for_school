@@ -24,3 +24,5 @@ jim.first_name = Jim
 jim.last_name = Root
 
 jim.learn
+
+jim.knowledge
