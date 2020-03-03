@@ -41,7 +41,10 @@ puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from A
 
 def avi_teach
   some_knowledge = avi.teach
-  Students.all.each {|student| student.learn, puts "Thank you Avi, #{student.first_name} just learned: #{student.knowledge.sample}"}
+  Students.all.each do |student|
+     student.learn
+     puts "Thank you Avi, #{student.first_name} just learned: #{student.knowledge.sample}"
+   end
 end
 
 kim = Student.new
