@@ -51,5 +51,3 @@ kim.last_name = "Root"
 im = Student.new
 jim.first_name = "Jim"
 jim.last_name = "Root"
-
-
