@@ -8,7 +8,7 @@ class Teacher < User
   def teaches_class
     some_knowledge = self.teach
     Student.all.each do |student|
-       student.learn
+       student.learn(some_knowledge)
        puts "Thank you #{@first_name}, #{student.first_name} just learned: #{student.knowledge.sample}"
      end
   end
