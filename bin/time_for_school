@@ -39,13 +39,6 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' fro
 
 puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
 
-def avi_teach
-  some_knowledge = avi.teach
-  Students.all.each do |student|
-     student.learn
-     puts "Thank you Avi, #{student.first_name} just learned: #{student.knowledge.sample}"
-   end
-end
 
 kim = Student.new
 kim.first_name = "Kim"
