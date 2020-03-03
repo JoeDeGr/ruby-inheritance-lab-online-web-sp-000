@@ -52,4 +52,4 @@ joey = Student.new
 joey.first_name = "Joey"
 joey.last_name = "Bag'O'Donoughts"
 
-avi_teach
+avi.avi_teach
